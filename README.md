@@ -2,6 +2,12 @@
 
 ## Configure a RHEL/Rocky/AlmaLinux 8 machine to be [CIS](https://www.cisecurity.org/cis-benchmarks/) compliant
 
+Just Run:
+```
+ansible-playbook --i inventory/inv.yml site.yml
+```
+
+
 ### Based on [ CIS RedHat Enterprise Linux 8 Benchmark v3.0.0 - 11-10-2023 ](https://www.cisecurity.org/cis-benchmarks/)
 
 ---
